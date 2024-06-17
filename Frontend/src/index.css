@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='text'],input[type='password'],input[type='number'],input[type="search"],input[type="date"],select{
+    @apply border shadow drop-shadow-lg py-1 px-6 rounded-2xl;
+}
