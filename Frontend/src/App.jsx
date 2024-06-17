@@ -140,8 +140,8 @@ function App() {
 
   return (
     <div className="h-[100vh] w-[100%]">
-      <div className="">
-        <div className="block">
+      <div>
+        <div>
           <div onClick={Closeadd} className="hidden bg_form_add before-[content:''] py-0 z-50 bg-blur-black before:bg-[rgba(4,11,20,0.8)] before:h-[100%] before:absolute before:w-[100vw]"/>
           <form onSubmit={Submit}  className="hidden form_add flex justify-center ">
             <div className="absolute top-[10%] lg:top-[3%] xl:top-[10%]">
